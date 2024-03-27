@@ -1,0 +1,6 @@
+.accueil-container {
+    z-index: -3;
+    background-color: rgba(540, 143, 143, 0.4);
+    padding-bottom: 16px;
+}
+

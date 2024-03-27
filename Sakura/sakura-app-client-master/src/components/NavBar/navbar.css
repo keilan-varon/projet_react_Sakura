@@ -1,0 +1,118 @@
+.hamburger-logo {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.hamburger-menu {
+    display: none;
+    z-index: 3;
+    position: fixed;
+}
+
+.logo-navbar  {
+    scale: 0.3;
+    margin: 0;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.loupe-navbar, .settings-navbar {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #FD9E9E;
+    background-color: rgba(240, 143, 143, 0.5);
+    padding: 8px;
+    height: 7vh;
+    max-height: 300px;
+    z-index: 3;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: #f08f8f;*/
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    color:#f08f8f
+}
+
+.navbar-btn {
+    width: 20%;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+
+
+.navbar-input {
+    font-size: 16px;
+    max-width: 215px;
+    margin: 0;
+}
+
+@media screen and (max-width: 950px) {
+
+    .hamburger-logo {
+        display: block;
+    }
+
+    .options {
+        width: auto;
+    }
+
+    .navbar-btn {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: left;
+        align-items: auto;
+    }
+
+    .navbar-input {
+        transform: translateX(-30px);
+    }
+
+    .loupe-navbar {
+        transform: translateX(-15px);
+    }
+   
+
+    .hamburger-menu {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .hamburger-btn {
+        max-width: none;
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+    }
+}
+

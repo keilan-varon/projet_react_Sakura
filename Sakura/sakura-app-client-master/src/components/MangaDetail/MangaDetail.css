@@ -1,0 +1,44 @@
+.manga-detail-container {
+    padding: 16px;
+    background-color: rgba(540, 143, 143, 0.4);
+    height: fit-content;
+    min-height: 93vh;
+}
+.manga-detail-section {
+    display: flex;
+}
+
+.manga-detail-section-left {
+    width: 50%;
+    margin-right: 16px;
+}
+
+.manga-detail-section-right {
+    word-wrap: break-word;
+}
+
+
+
+.manga-detail-synopsis {
+    text-align: justify;
+   
+}
+.manga-detail-chapters-label {
+    vertical-align: top;
+}
+
+.manga-detail-chapters {
+    vertical-align: top;
+}
+
+@media screen and (max-width: 600px) {
+    .manga-detail-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .manga-detail-title {
+        text-align: center;
+    }
+}

@@ -1,0 +1,28 @@
+
+.manga-list {
+    width: 80%;
+    margin: auto;
+    border: 2px solid #FD9E9E;
+    border-radius: 4px;
+    padding: 32px;
+    margin-top: 16px;
+}
+
+
+.slick-dots li.slick-active button:before {
+    color: white !important;
+}
+
+
+.slick-slide {
+    margin-right: 100px;
+    margin-bottom: 16px;
+    place-items: center;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    
+} 

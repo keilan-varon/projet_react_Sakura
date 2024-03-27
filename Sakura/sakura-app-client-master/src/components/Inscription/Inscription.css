@@ -1,0 +1,46 @@
+.main-container-inscription {
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%),
+      url("../../assets/saitama.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+label[for="password-confirm"] {
+    text-align: center;
+    font-size: 16px;
+}
+
+.inscription {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.password-checklist {
+    align-self: center;
+}
+
+.text-redirect {
+    text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+    .styled-btn {
+        width: 80%;
+        margin: auto;
+     }
+
+     .inscription {
+        flex-direction: column;
+     }
+
+     .main-container-inscription {
+        height: 150vh;
+     }
+}
+  

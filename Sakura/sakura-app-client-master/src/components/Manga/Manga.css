@@ -1,0 +1,30 @@
+
+.card-manga-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    width: 200px;
+}
+
+.card-manga-container:hover {
+    scale: 0.9;
+    transition: scale 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.poster-image {
+    border: 2px solid #FD9E9E;
+}
+
+.card-manga-name-container {
+    border: 2px solid #FD9E9E;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.card-manga-name {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    font-size: 14px;
+}

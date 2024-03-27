@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(42, 42, 42);
+    font-family: Nunito, sans-serif;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.page-title {
+    margin-top: 0;
+    padding-top: 16px;
+    text-decoration: underline;
+    margin-left: 48px;
+}
